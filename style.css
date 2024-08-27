@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .navbar{
+        position: fixed;
+        display: flex;
+        background-color: white;
+        justify-content: space-between;
+        width: 100%;
+        padding: 10px 10px;
+        border-bottom: 1px solid rgb(67, 58, 58);
+    }
+    .navbar a{
+        font-size: 110%;
+        text-decoration: none;
+        color: black;
+        display: inline-block;
+        padding: 10px;
+    }
+    .navbar a:hover{
+        background-color: lightgray;
+    }
+    .food1{
+        text-align: center;
+    }
+    .food1 img{
+        height: 95%;
+        width: 95%;
+    }
+    .food2{
+        text-align: center;
+        font-size: xx-large;
+    }
+    .food2 img {
+        height: 100%;
+        width: 35%;
+        text-align: center;
+        margin: 200px;
+    }
+    .food22{
+        margin: -110px;
+        margin-top: 280px;
+        margin-right: 70px;
+        font-size: 70%;
+    }
+    .food22 h2{
+        font-size: 100%;
+    }
+    #p{
+        color: cadetblue;
+    }
+    .food3{
+        font-size: 135%;
+    }
+    .food3 img{
+        height: 85%;
+        width: 30%;
+        margin-left: 200px;
+    }
+    .food33 h1{
+        margin-top: 100px;
+        text-align: center;
+        margin-left: 50px;
+        font-size: 150%;
+    }
+    .food33 h2{
+        margin-top: 50px;
+        margin-left: 150px;
+        font-size: 100%;
+    }
+    .food33 h2 p{
+        font-size: 90%;
+        color: cadetblue;
+    }
+    .food33 h3{
+        margin-top: 50px;
+        margin-left: 150;
+        font-size: 100%;
+    }
+    .food33 h3 p{
+        font-size: 90%;
+        color: cadetblue;
+    }
+    .food33 h4{
+        margin-top: 50px;
+        margin-left: 150;
+        font-size: 100%;
+    }
+    .food33 h4 p{
+        font-size: 90%;
+        color: cadetblue;
+    }
+    .food33 h5{
+        margin-top: 50px;
+        margin-left: 150;
+        font-size: 100%;
+    }
+    .food33 h5 p{
+        font-size: 90%;
+        color: cadetblue;
+    }
+    .food33 h6{
+        margin-top: 50px;
+        margin-left: 150;
+        font-size: 100%;
+    }
+    .food33 h6 p{
+        font-size: 90%;
+        color: cadetblue;
+    }
+    .contact{
+        text-align: center;
+        font-size: x-large;
+    }
+    .contact p{
+        font-size: 85%;
+    }
+    #p1{
+        font-size: 100%;
+        color: gray;
+    }
+    
+    input{
+        width: 70%;
+        border: none;
+        padding: 10px;
+        margin: 10px;
+    }
+    footer{
+        background-color: mediumspringgreen;
+        height: 100px;
+        text-align: center;
+        padding-top: 30px;
+        font-size: 20px;
+    }
