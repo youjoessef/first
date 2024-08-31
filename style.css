@@ -3,7 +3,7 @@
         padding: 0;
         box-sizing: border-box;
     }
-    .navbar{
+    nav{
         position: fixed;
         display: flex;
         background-color: white;
@@ -12,22 +12,22 @@
         padding: 10px 10px;
         border-bottom: 1px solid rgb(67, 58, 58);
     }
-    .navbar a{
+    nav a{
         font-size: 110%;
         text-decoration: none;
         color: black;
         display: inline-block;
         padding: 10px;
     }
-    .navbar a:hover{
+    nav a:hover{
         background-color: lightgray;
     }
-    .food1{
+    header{
         text-align: center;
     }
-    .food1 img{
-        height: 95%;
-        width: 95%;
+    header img{
+        height: 100%;
+        width: 100%;
     }
     .food2{
         text-align: center;
@@ -62,12 +62,12 @@
     .food33 h1{
         margin-top: 100px;
         text-align: center;
-        margin-left: 50px;
+        margin-left: 200px;
         font-size: 150%;
     }
     .food33 h2{
         margin-top: 50px;
-        margin-left: 150px;
+        margin-left: 200px;
         font-size: 100%;
     }
     .food33 h2 p{
@@ -76,7 +76,7 @@
     }
     .food33 h3{
         margin-top: 50px;
-        margin-left: 150;
+        margin-left: 200px;
         font-size: 100%;
     }
     .food33 h3 p{
@@ -85,7 +85,7 @@
     }
     .food33 h4{
         margin-top: 50px;
-        margin-left: 150;
+        margin-left: 200px;
         font-size: 100%;
     }
     .food33 h4 p{
@@ -94,7 +94,7 @@
     }
     .food33 h5{
         margin-top: 50px;
-        margin-left: 150;
+        margin-left: 200px;
         font-size: 100%;
     }
     .food33 h5 p{
@@ -103,7 +103,7 @@
     }
     .food33 h6{
         margin-top: 50px;
-        margin-left: 150;
+        margin-left: 200px;
         font-size: 100%;
     }
     .food33 h6 p{
@@ -115,10 +115,10 @@
         font-size: x-large;
     }
     .contact p{
-        font-size: 85%;
+        font-size: 75%;
     }
     #p1{
-        font-size: 100%;
+        font-size: 85%;
         color: gray;
     }
     
@@ -128,8 +128,11 @@
         padding: 10px;
         margin: 10px;
     }
+    button{
+        font-size: 85%;
+    }
     footer{
-        background-color: mediumspringgreen;
+        background-color: rgba(0, 250, 212, 0.701);
         height: 100px;
         text-align: center;
         padding-top: 30px;
