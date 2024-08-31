@@ -1,13 +1,15 @@
-
- <html>
-
-    <head>
-        <title>html & css</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <title>html & css</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
     <body>
-        <div class="navbar">
+        <nav>
             <div class="left">
                 <a href="#">Gourmet au catering</a>
             </div>
@@ -16,11 +18,11 @@
                 <a href="#menu">Menu</a>
                 <a href="#contact">Contact</a>
             </div>
-        </div>
+        </nav>
 
-    <div class="food1">
+    <header>
         <img src="https://www.w3schools.com/w3images/hamburger.jpg" alt="Burger image">
-    </div>
+    </header>
 
     <section class="food2" style="display: flex;">
         <img id="about" src="https://www.w3schools.com/w3images/tablesetting2.jpg" alt="Food image">
@@ -41,9 +43,9 @@
     <hr>
     <br><br><br>
 
-    <div class="food3" style="display: flex;">
+    <section class="food3" style="display: flex;">
         
-        <div class="food33" id="menu">
+        <article class="food33" id="menu">
             <h1>Our menu</h1>
             <h2>
                 Bread Basket
@@ -66,13 +68,13 @@
                 Blueberry Pancakes
                 <p>With syrup, butter and lots of berries 8.50</p>
             </h6>
-        </div>
+        </article>
         <img class="i" src="https://www.w3schools.com/w3images/tablesetting.jpg" alt="">
-    </div>
+    </section>
 
     <br><br><br><br><br><hr><br><br><br><br>
 
-    <div class="contact" id="contact">
+    <section class="contact" id="contact">
         <h1>Contact</h1>
         <p>We offer full-service catering for any event, large or small.
              We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.
@@ -84,7 +86,12 @@
              <input type="date" >
              <input type="text"  placeholder="Message"> <hr>
              <button >Send message</button><br><br>
-    </div>
+    </section>
+
     <footer>
        <p> Powered by w3.css</p>
     </footer>
+
+</body>
+
+</html>
