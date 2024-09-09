@@ -11,6 +11,7 @@
         width: 100%;
         padding: 10px 10px;
         border-bottom: 1px solid rgb(67, 58, 58);
+        z-index: 100;
     }
     nav a{
         font-size: 110%;
