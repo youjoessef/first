@@ -27,8 +27,17 @@
         text-align: center;
     }
     header img{
+        position: relative;
         height: 100%;
         width: 100%;
+    }
+    header p{
+        position: absolute;
+        bottom: 30px;
+        left: 40px;
+        color: black;
+        font-size: 30px;
+        opacity: 0.6;
     }
     .food2{
         text-align: center;
